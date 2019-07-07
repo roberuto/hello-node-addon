@@ -1,0 +1,11 @@
+{
+  "name": "hello-node-addon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Robert Goik <robert.goik@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "node-gyp configure build",
+    "start": "node hello.js"
+  }
+}
